@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7566852345551656539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7525633283157684651}
+  - component: {fileID: 5180749904161258751}
+  - component: {fileID: 2372318040661615151}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7525633283157684651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7566852345551656539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.4581413, y: -3.7660773, z: 0.057908002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5180749904161258751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7566852345551656539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e136fd2f924a9b842a645904619752dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resource: {fileID: 0}
+  newrB: {fileID: 0}
+--- !u!114 &2372318040661615151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7566852345551656539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be9103bf4b09374da754495bc7b9468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endTime: 0
+  indoor: 1
+  rbMoveSpeed: 1
+  rbPower: 40
+  rbEfficiency: 10
+  rbCapacity: 20
+  rbNextMoveSpeed: 1
+  rbNextPower: 40
+  rbNextEfficiency: 10
+  rbNextCapacity: 20
+  rbNextReady: 1
+  spPower: 0
+  maxSpPower: 100
+  spHp1: 0
+  spHp2: 0
+  spHp3: 0
+  spMaxHp: 100
+  metal: 0
+  plastic: 0
+  uranium: 0
+  spPoewrReduce: 1
+  spHpRightReduce: 0.1
+  spHpLeftReduce: 0.1
+  spHpFrontReduce: 0.1
+  endTimeReduce: 1
